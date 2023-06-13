@@ -1,0 +1,30 @@
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;500;600;700;800;900&display=swap');
+
+/*IMPORT STYLES*/
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./description.css');
+@import url('./list.css');
+@import url('./carousel.css');
+@import url('./footer.css');
+
+/*SET VARIABLES*/
+:root {
+    --primary-font: 'Josefin Slab', serif;
+    --primary-black: #202020;
+    --primary-white: #E5E5E5;
+    --dark-brown: #1b0511;
+    --dark-red: #701e34;
+}
+/*PARALLAX EFECT*/
+body {
+    font: 500 1rem var(--primary-font);
+    background: url('../img/fundo.jpg') no-repeat center center;
+    position: relative;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; 
+}

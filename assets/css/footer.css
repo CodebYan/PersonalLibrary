@@ -1,0 +1,26 @@
+.footer {
+    background-color: var(--dark-brown);
+    padding: 2em 6em;
+}
+
+.footer__container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link {
+    color: var(--primary-white);
+    display: flex;
+    font-size: 1.75em;
+    gap: .5em;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    color: var(--dark-red);
+}
+
+@media (max-width: 480px) {
+    
+}
